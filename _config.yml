@@ -42,6 +42,12 @@ baseurl: "/SHUI"
 # 这个配置必须加上，用来设置网站的访问路径
 url: "https://hxie2023.github.io"
 
+# ---------------------------------------------
+# 关键：添加 _pages 文件夹到处理列表
+# ---------------------------------------------
+include: 
+  - _pages
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

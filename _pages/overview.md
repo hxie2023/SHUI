@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Overview
-nav_order: 2 # 定义这是第二个主章节
-has_children: true # 告诉主题：这个章节下有子页面，以便在左侧目录中显示展开/折叠箭头
-
-# 以下是页面内容
+nav_order: 1           # 确保有排序号
+has_children: true     # 如果下面有子页面，必须有这个
 ---
 # 1 Overview
 
