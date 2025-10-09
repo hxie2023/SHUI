@@ -1,6 +1,14 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: SHUI Book - Home
+# 确保没有 blog post 相关的 layout，例如 layout: home
+# ---------------------------------------------
+# 关键设置：隐藏左侧导航栏中的此页面，并阻止显示默认的文章列表
+hide_from_sidebar: true 
+# ---------------------------------------------
 ---
+
+# 欢迎来到 SHUI Book
+
+请使用左侧的导航栏（如果可见）或点击下面的链接开始阅读。
+... （这里可以是你文档的介绍性文字） ...
