@@ -34,6 +34,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# 如果你的仓库名是 YOUR_USERNAME.github.io，这里留空或不写
+# 如果你的仓库名是 PROJECT_NAME (例如 shui-blog)，请在这里填写你的仓库名
+baseurl: "/SHUI"
+
+# 这个配置必须加上，用来设置网站的访问路径
+url: "https://hxie2023.github.io"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
