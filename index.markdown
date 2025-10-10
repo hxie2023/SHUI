@@ -9,6 +9,7 @@ title: SHUI Book - Home
 # 这样左侧导航栏就完全是你的文档结构，而不是从主页开始
 nav_exclude: true 
 lang: "en"
+permalink: /
 ---
 
 # Welcome to the Book of SHUI!
