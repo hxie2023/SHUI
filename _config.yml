@@ -44,17 +44,4 @@ url: "https://hxie2023.github.io"
 include: 
   - _pages
 
-# ---------------------------------------------
-# Jekyll-Polyglot 多语言配置
-# ---------------------------------------------
-languages: ["en", "zh"]       
-default_lang: "en"           
-exclude_from_localizations: 
-  - assets
-  - images
-  - _site
-  - _includes
-  - _layouts
-  - _sass 
-parallel_localizations: false 
 

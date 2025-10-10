@@ -8,8 +8,6 @@ title: SHUI Book - Home
 # 关键：告诉 Just the Docs 在左侧导航栏中隐藏这个页面
 # 这样左侧导航栏就完全是你的文档结构，而不是从主页开始
 nav_exclude: true 
-lang: "en"
-permalink: /
 ---
 
 # Welcome to the Book of SHUI!

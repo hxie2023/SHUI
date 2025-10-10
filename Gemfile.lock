@@ -161,8 +161,6 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
-    jekyll-polyglot (1.5.1)
-      jekyll (>= 3.0)
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -314,7 +312,6 @@ DEPENDENCIES
   faraday-retry (~> 2.3)
   github-pages
   jekyll-feed (~> 0.12)
-  jekyll-polyglot
   jekyll-remote-theme
 
 BUNDLED WITH

@@ -35,21 +35,18 @@
 # gem "github-pages", group: :jekyll_plugins
 # gem "jekyll-remote-theme"
 
-# # 如果你还需要本地运行，可以保留这一行来确保使用正确的 Jekyll 版本
 # # gem "jekyll" 
 # gem "faraday-retry", "~> 2.3"
 
 source "https://rubygems.org"
 
-# 启用 GitHub Pages，它会安装兼容的 Jekyll 核心和插件
 gem "github-pages", group: :jekyll_plugins
 
 # 以下是所有额外的插件
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  # 远程主题插件，用于识别 _config.yml 中的 remote_theme
   gem "jekyll-remote-theme"
-  gem "jekyll-polyglot"
+  # gem "jekyll-polyglot"
 end
 
 # 针对本地环境的额外修复或依赖

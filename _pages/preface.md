@@ -3,7 +3,6 @@
 layout: default
 title: Preface
 nav_order: 1 
-lang: "en"
 ---
 # Preface
 
