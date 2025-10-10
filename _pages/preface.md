@@ -1,10 +1,9 @@
 ---
-# Just the Docs 必须的 YAML 头信息
+# Just the Docs 
 layout: default
 title: Preface
-nav_order: 1 # 定义这是第一个主章节
-
-# 以下是页面内容
+nav_order: 1 
+lang: "en"
 ---
 # Preface
 

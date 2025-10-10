@@ -8,9 +8,8 @@ title: SHUI Book - Home
 # 关键：告诉 Just the Docs 在左侧导航栏中隐藏这个页面
 # 这样左侧导航栏就完全是你的文档结构，而不是从主页开始
 nav_exclude: true 
-lang: "en"
 ---
 
-# Welcome to the Book of SHUI!
+# 欢迎来到SHUI模型说明书
 
-SHUI is short for Simulator of catchment Hydrology and nUtrients Interactions. It is a distributed and 
+说明书

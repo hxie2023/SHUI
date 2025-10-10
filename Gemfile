@@ -49,6 +49,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   # 远程主题插件，用于识别 _config.yml 中的 remote_theme
   gem "jekyll-remote-theme"
+  gem "jekyll-polyglot"
 end
 
 # 针对本地环境的额外修复或依赖
