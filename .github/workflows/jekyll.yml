@@ -24,8 +24,7 @@ jobs:
           bundler-cache: true
           cache-version: 0 
       - name: Build with Jekyll
-        run: |
-          bundle exec jekyll build --baseurl ${{ secrets.BASEURL || '/SHUI' }}
+        run: bundle exec jekyll build --baseurl ${{ secrets.BASEURL || '/SHUI' }} --destination _site
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3

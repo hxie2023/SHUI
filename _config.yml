@@ -31,13 +31,11 @@ github_username:  hxie2023
 remote_theme: "just-the-docs/just-the-docs"
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme # 确保远程主题插件被识别
-  - jekyll-default-layout # Just the Docs 经常需要这个插件
+  - jekyll-remote-theme 
+  - jekyll-default-layout # Just the Docs 
 
-# 如果你的仓库名是 YOUR_USERNAME.github.io，这里留空或不写
-# 如果你的仓库名是 PROJECT_NAME (例如 shui-blog)，请在这里填写你的仓库名
+
 baseurl: "/SHUI"
-# 这个配置必须加上，用来设置网站的访问路径
 url: "https://hxie2023.github.io"
 
 # ---------------------------------------------
@@ -49,13 +47,13 @@ include:
 # ---------------------------------------------
 # Jekyll-Polyglot 多语言配置
 # ---------------------------------------------
-languages: ["en", "zh"]       # 支持英文 (en) 和中文 (zh)
-default_lang: "en"            # 设定英文为默认语言
-exclude_from_localizations:   # 排除不需要翻译的文件夹
+languages: ["en", "zh"]       
+default_lang: "en"           
+exclude_from_localizations: 
   - assets
   - images
   - _site
-  - _pages                      # 保持 _pages 里的文件在根目录，但子目录会包含它们
+  - _pages  
 parallel_localizations: false 
 
 # Exclude from processing.
