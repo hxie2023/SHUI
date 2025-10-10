@@ -24,12 +24,15 @@ jobs:
           bundler-cache: true
           cache-version: 0 
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl ${{ secrets.BASEURL || '/SHUI' }} --destination _site
+        env:
+          BASEURL: /SHUI 
+        run: |
+          bundle exec jekyll build --destination _site --baseurl ${{ env.BASEURL }}
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site # 上传 Jekyll 生成的静态文件目录
+          path: ./_site
 
   deploy:
     environment:
