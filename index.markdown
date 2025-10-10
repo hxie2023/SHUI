@@ -1,7 +1,6 @@
 ---
 layout: default
 title: SHUI Book - Home
-# 确保没有 blog post 相关的 layout，例如 layout: home
 # ---------------------------------------------
 # 关键设置：隐藏左侧导航栏中的此页面，并阻止显示默认的文章列表
 # hide_from_sidebar: true 
@@ -11,7 +10,6 @@ title: SHUI Book - Home
 nav_exclude: true 
 ---
 
-# 欢迎来到 SHUI Book
+# Welcome to the Book of SHUI!
 
-请使用左侧的导航栏（如果可见）或点击下面的链接开始阅读。
-... （这里可以是你文档的介绍性文字） ...
+SHUI is short for Simulator of catchment Hydrology and nUtrients Interactions. It is a distributed and 
