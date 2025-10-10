@@ -50,12 +50,11 @@ include:
 languages: ["en", "zh"]       
 default_lang: "en"           
 exclude_from_localizations: 
-- assets
+  - assets
   - images
   - _site
-  - _includes    
-  - _layouts    
-  - _sass  
-  - zh  
+  - _includes
+  - _layouts
+  - _sass 
 parallel_localizations: false 
 
