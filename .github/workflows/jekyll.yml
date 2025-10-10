@@ -20,7 +20,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.x' # 使用最新的 Ruby 版本
+          ruby-version: '3.3' 
           bundler-cache: true
           cache-version: 0 
       - name: Build with Jekyll
