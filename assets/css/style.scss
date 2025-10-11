@@ -1,0 +1,21 @@
+---
+---
+
+/* 两端对齐样式 */
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.6;
+    
+    /* 保持标题左对齐 */
+    h1, h2, h3, h4, h5, h6 {
+        text-align: left;
+        text-justify: auto;
+    }
+}
+
+/* 可选：为所有段落应用两端对齐 */
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
