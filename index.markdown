@@ -13,7 +13,7 @@ SHUI is short for **Simulator of catchment Hydrology and nUtrients Interactions*
 </div>
 
 <div style="text-align: center;">
-    <img src="{{ '/assets/images/your_image.jpg' | relative_url }}" 
+    <img src="{{ '/assets/images/SHUI.png' | relative_url }}" 
          alt="图示" 
          style="max-width: 90%;">
 </div>
