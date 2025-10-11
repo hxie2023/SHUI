@@ -5,7 +5,7 @@ title: SHUI Book - Home
 nav_exclude: true 
 ---
 
-<div class="justify-text">
+<div class="justify-text" markdown="1">
 # Welcome to the Book of SHUI!
 
 SHUI is short for Simulator of catchment Hydrology and nUtrients Interactions. It is a distributed, mechanism-based model for simulating the hydrological cycle, sediments, nutrients, and other contaminants transport processes at the catchment scale. It is a component of the Lake-Catchment Simulator (LCS). SHUI is developed on the Linux operating system and is compiled using GNU GFortran. It dynamically links to the NetCDF library to manage reading and writing operations for .nc format files. It also implements multi-threaded parallel computation through the OpenMP interface. The 1.1 version of the model runs at the daily time step, performs multi-level division and nested calculations of the catchment. Vertically, it divides the land surface grid into canopy, land surface, soil, and aquifer layers. Within each grid cell, it calculates the movement of water and solutes vertically, and laterally simulates runoff and related solutes mobilization. 
