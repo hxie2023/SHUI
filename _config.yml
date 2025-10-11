@@ -29,6 +29,26 @@ github_username:  hxie2023
 # Build settings
 # theme: minima
 remote_theme: "just-the-docs/just-the-docs"
+
+# 添加自定义 CSS
+aux_links: {}
+head_custom: |
+  <style>
+    .justify-text {
+        text-align: justify;
+        text-justify: inter-word;
+        line-height: 1.6;
+    }
+    .justify-text h1, 
+    .justify-text h2, 
+    .justify-text h3, 
+    .justify-text h4, 
+    .justify-text h5, 
+    .justify-text h6 {
+        text-align: left;
+    }
+  </style>
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme 
