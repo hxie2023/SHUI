@@ -4,7 +4,7 @@ title: Brief History of SHUI
 parent: Overview # 
 nav_order: 2 
 ---
-<div class="justify-text">
+<div class="justify-text" markdown="1">
 ## 1.2 Brief History of SHUI
 
 Brief History of SHUI
