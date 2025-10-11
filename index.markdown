@@ -1,5 +1,5 @@
 ---
-layout: default
+# layout: default
 title: SHUI Book - Home
 # hide_from_sidebar: true 
 nav_exclude: true 
