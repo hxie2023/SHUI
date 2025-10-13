@@ -39,15 +39,12 @@ sass:
 # Just the Docs 主题配置
 just_the_docs:
   # ============================================
-  # 关键：启用 KaTeX 数学渲染
+  # 关键：添加 MathJax 脚本
   # ============================================
-  mermaid: true  # 推荐启用这个，虽然与公式无关
-  kramdown:
-    math_engine: katex
-  
-  # 添加自定义 CSS 路径
   head_scripts:
-    - /assets/css/custom.css
+    - /assets/css/custom.css  # 保留您原有的 CSS 引用
+    # 添加 MathJax 3.0 或更高版本的 CDN 脚本
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 
 plugins:
