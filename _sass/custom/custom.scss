@@ -28,6 +28,8 @@ p {
 */
 
 
+/* _sass/custom/custom.scss */
+
 /* 强制子导航列表（即折叠部分）始终可见 */
 /* .nav-list-child 是子菜单的容器 */
 .side-bar .nav-list .nav-list-child {
@@ -36,7 +38,7 @@ p {
     max-height: none !important;
 }
 
-/* 隐藏用于展开/折叠的小箭头图标（可选，但推荐让界面更统一） */
+/* 隐藏用于展开/折叠的小箭头图标 (可选) */
 .side-bar .nav-list-expander {
     display: none !important;
 }
