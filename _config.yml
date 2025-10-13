@@ -62,3 +62,17 @@ url: "https://hxie2023.github.io"
 include: 
   - _pages
 
+# 添加 Kramdown 配置块
+kramdown:
+  # 关键：设置数学引擎为 katex
+  math_engine: katex
+  
+  # 关键：设置 KaTeX 的输出模式 (可选，但推荐使用 HTML)
+  math_engine_opts:
+    # 告诉 KaTeX 输出 HTML 结构
+    output: html
+    # 确保在块级公式中使用 `$$...$$` 语法
+    display_math_delimiters: ["$$", "$$"]
+    # 确保在行内公式中使用 `$...$` 语法 (注意：这有潜在冲突，建议使用 `$$...$$` 来表示行内，或者依赖 KaTeX 自动渲染)
+    # inline_math_delimiters: ["$", "$"] # 这一行可能引起 Markdown 冲突，暂不推荐添加
+
