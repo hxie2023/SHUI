@@ -27,7 +27,7 @@ p {
 }
 */
 
-
+// 以下内容生效，可让网页左边栏目录完全展开
 /* 强制展开所有导航层级 */
 nav ul.nav-list > li.nav-list-item > ul.nav-list {
   display: block !important;
@@ -56,5 +56,5 @@ nav ul.nav-list ul.nav-list ul.nav-list {
 
 /* 可选：调整缩进以更好显示层级关系 */
 .nav-list .nav-list {
-  margin-left: 1rem;
+  margin-left: 0.3rem;
 }
