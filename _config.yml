@@ -29,10 +29,6 @@ github_username:  hxie2023
 # Build settings
 # theme: minima
 remote_theme: "just-the-docs/just-the-docs"
-# 新增这一行：
-nav_sort: case_insensitive
-# 再加上下面这一段来控制导航行为：
-show_nav_level: 3
 
 # 添加这行配置
 sass:
