@@ -43,5 +43,10 @@ layout: table_wrappers
   {% if site.mermaid %}
     {% include components/mermaid.html %}
   {% endif %}
+
+  {% if page.math %}
+    {% include mathjax_support.html %}
+  {% endif %}
+  
 </body>
 </html>
