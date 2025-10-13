@@ -1,0 +1,3 @@
+/* 添加公式样式修复 */
+.katex { font-size: 1.1em; }
+.katex-display { overflow-x: auto; }
