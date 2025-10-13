@@ -45,18 +45,26 @@ just_the_docs:
   # 关键：添加 MathJax 脚本
   # ============================================
   head_scripts:
-    - /assets/css/custom.css  # 保持您的原有自定义 CSS 引用
-    
-    # 1. KaTeX CSS 文件
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" crossorigin="anonymous">
-    
-    # 2. KaTeX JS 核心库
-    - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" crossorigin="anonymous"></script>
-    
-    # 3. KaTeX 自动渲染扩展 (Auto-render extension)
-    #    在加载完成后，自动查找页面中的公式并渲染。
-    #    配置了分隔符: '$$...$$' (块级) 和 '$...$' (行内)
-    - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false} ]});"></script>
+  - /assets/css/custom.css  # 保持您的原有自定义 CSS 引用
+
+  # 1. KaTeX CSS 文件
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" crossorigin="anonymous">
+
+  # 2. KaTeX JS 核心库
+  - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" crossorigin="anonymous"></script>
+
+  # 3. KaTeX 自动渲染扩展 (Auto-render extension)
+  - |
+    <script defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+      crossorigin="anonymous"
+      onload="renderMathInElement(document.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false}
+        ]
+      });">
+    </script>
 
 
 
