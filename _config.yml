@@ -41,6 +41,10 @@ plugins:
   - jekyll-remote-theme 
   - jekyll-default-layout # Just the Docs 
 
+# Just the Docs 主题配置
+just_the_docs:
+  # 启用自动展开当前页面所在导航分支的功能
+  expand_sections: true
 
 baseurl: "/SHUI"
 url: "https://hxie2023.github.io"
