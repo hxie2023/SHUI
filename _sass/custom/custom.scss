@@ -28,17 +28,15 @@ p {
 */
 
 
-/* _sass/custom/custom.scss */
-
-/* 强制子导航列表（即折叠部分）始终可见 */
-/* .nav-list-child 是子菜单的容器 */
-.side-bar .nav-list .nav-list-child {
-    display: block !important;
-    height: auto !important;
-    max-height: none !important;
+/* 强制展开所有导航项 */
+nav.nav-list .nav-list-item .nav-list {
+  display: block !important;
+  height: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
-/* 隐藏用于展开/折叠的小箭头图标 (可选) */
-.side-bar .nav-list-expander {
-    display: none !important;
+/* 隐藏展开/折叠箭头（可选） */
+.nav-list-expander {
+  display: none !important;
 }

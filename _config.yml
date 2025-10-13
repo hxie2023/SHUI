@@ -36,6 +36,15 @@ sass:
   load_paths:
     - _sass
 
+# Just the Docs 主题配置
+just_the_docs:
+  # 虽然第一个方法无效，但仍建议保留
+  expand_sections: true
+  
+  # 添加自定义 CSS 路径
+  head_scripts:
+    - /assets/css/custom.css
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme 
