@@ -44,8 +44,7 @@ just_the_docs:
   # 添加自定义 CSS 路径
   head_scripts:
     - /assets/css/custom.css
-    # 添加 KaTeX CSS
-    - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
+
 
 plugins:
   - jekyll-feed
@@ -62,10 +61,3 @@ url: "https://hxie2023.github.io"
 include: 
   - _pages
 
-# ---------------------------------------------
-# Jekyll Markdown 解析器配置
-# ---------------------------------------------
-markdown: kramdown
-kramdown:
-  math_engine: mathjax  # 或 katex，但推荐使用我们手动添加的方式
-  syntax_highlighter: rouge
