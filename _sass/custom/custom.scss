@@ -28,10 +28,33 @@ p {
 */
 
 
-/* 强制展开所有导航项 */
-nav.nav-list .nav-list-item .nav-list {
+/* 强制展开所有导航层级 */
+nav ul.nav-list > li.nav-list-item > ul.nav-list {
+  display: block !important;
+}
+
+/* 强制展开第二级导航 */
+nav ul.nav-list ul.nav-list {
+  display: block !important;
+}
+
+/* 强制展开第三级导航（针对您的 1.1.1 层级） */
+nav ul.nav-list ul.nav-list ul.nav-list {
+  display: block !important;
+}
+
+/* 确保所有导航项都可见 */
+.nav-list .nav-list {
   display: block !important;
   height: auto !important;
-  opacity: 1 !important;
-  visibility: visible !important;
+}
+
+/* 隐藏所有展开/折叠箭头，因为不再需要折叠功能 */
+.nav-list-expander {
+  display: none !important;
+}
+
+/* 可选：调整缩进以更好显示层级关系 */
+.nav-list .nav-list {
+  margin-left: 1rem;
 }
