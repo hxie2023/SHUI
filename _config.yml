@@ -36,15 +36,28 @@ sass:
   load_paths:
     - _sass
 
+kramdown:
+  math_engine: nil 
+
 # Just the Docs 主题配置
 just_the_docs:
   # ============================================
   # 关键：添加 MathJax 脚本
   # ============================================
   head_scripts:
-    - /assets/css/custom.css  # 保留您原有的 CSS 引用
-    # 添加 MathJax 3.0 或更高版本的 CDN 脚本
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - /assets/css/custom.css  # 保持您的原有自定义 CSS 引用
+    
+    # 1. KaTeX CSS 文件
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" crossorigin="anonymous">
+    
+    # 2. KaTeX JS 核心库
+    - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" crossorigin="anonymous"></script>
+    
+    # 3. KaTeX 自动渲染扩展 (Auto-render extension)
+    #    在加载完成后，自动查找页面中的公式并渲染。
+    #    配置了分隔符: '$$...$$' (块级) 和 '$...$' (行内)
+    - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" crossorigin="anonymous" onload="renderMathInElement(document.body, { delimiters: [ {left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false} ]});"></script>
+
 
 
 plugins:
@@ -62,17 +75,4 @@ url: "https://hxie2023.github.io"
 include: 
   - _pages
 
-# 添加 Kramdown 配置块
-kramdown:
-  # 关键：设置数学引擎为 katex
-  math_engine: katex
-  
-  # 关键：设置 KaTeX 的输出模式 (可选，但推荐使用 HTML)
-  math_engine_opts:
-    # 告诉 KaTeX 输出 HTML 结构
-    output: html
-    # 确保在块级公式中使用 `$$...$$` 语法
-    display_math_delimiters: ["$$", "$$"]
-    # 确保在行内公式中使用 `$...$` 语法 (注意：这有潜在冲突，建议使用 `$$...$$` 来表示行内，或者依赖 KaTeX 自动渲染)
-    # inline_math_delimiters: ["$", "$"] # 这一行可能引起 Markdown 冲突，暂不推荐添加
 
