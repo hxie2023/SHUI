@@ -64,3 +64,13 @@ include:
 # KaTeX (数学公式) 配置
 # ---------------------------------------------
 enable_math: true
+
+# ---------------------------------------------
+# Jekyll Markdown 解析器配置
+# ---------------------------------------------
+markdown: kramdown
+kramdown:
+  # 启用 kramdown 的数学扩展，兼容 MathJax/KaTeX
+  math_engine: katex 
+  # 允许使用标准的 $...$ 和 $$...$$ 标记
+  syntax_highlighter: rouge
