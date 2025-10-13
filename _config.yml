@@ -36,6 +36,9 @@ sass:
   load_paths:
     - _sass
 
+kramdown:
+  math_engine: nil 
+
 # Just the Docs 主题配置
 just_the_docs:
   # ============================================
