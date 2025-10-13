@@ -36,9 +36,6 @@ sass:
   load_paths:
     - _sass
 
-kramdown:
-  math_engine: nil 
-
 # Just the Docs 主题配置
 just_the_docs:
   # ============================================
@@ -46,27 +43,6 @@ just_the_docs:
   # ============================================
   head_scripts:
   - /assets/css/custom.css  # 保持您的原有自定义 CSS 引用
-
-  # 1. KaTeX CSS 文件
-  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" crossorigin="anonymous">
-
-  # 2. KaTeX JS 核心库
-  - <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" crossorigin="anonymous"></script>
-
-  # 3. KaTeX 自动渲染扩展 (Auto-render extension)
-  - |
-    <script defer
-      src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
-      crossorigin="anonymous"
-      onload="renderMathInElement(document.body, {
-        delimiters: [
-          {left: '$$', right: '$$', display: true},
-          {left: '$', right: '$', display: false}
-        ]
-      });">
-    </script>
-
-
 
 plugins:
   - jekyll-feed
