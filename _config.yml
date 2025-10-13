@@ -29,6 +29,12 @@ github_username:  hxie2023
 # Build settings
 # theme: minima
 remote_theme: "just-the-docs/just-the-docs"
+# 新增这一行：
+nav_sort: case_insensitive
+
+# 再加上下面这一段来控制导航行为：
+just_the_docs:
+  show_nav_level: 3
 
 # 添加这行配置
 sass:
@@ -41,10 +47,6 @@ plugins:
   - jekyll-remote-theme 
   - jekyll-default-layout # Just the Docs 
 
-# Just the Docs 主题配置
-just_the_docs:
-  # 启用自动展开当前页面所在导航分支的功能
-  expand_sections: true
 
 baseurl: "/SHUI"
 url: "https://hxie2023.github.io"
