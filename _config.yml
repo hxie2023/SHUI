@@ -29,8 +29,7 @@ just_the_docs:
   # 关键：添加 MathJax 脚本
   # ============================================
   head_scripts:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # - /assets/css/custom.css  # 保持您的原有自定义 CSS 引用
+  - /assets/css/custom.css  # 保持您的原有自定义 CSS 引用
 
 plugins:
   - jekyll-feed
