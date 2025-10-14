@@ -11,10 +11,10 @@ github_username:  hxie2023
 remote_theme: "just-the-docs/just-the-docs"
 
 # 添加这行配置
-sass:
-  style: compressed
-  load_paths:
-    - _sass
+# sass:
+#   style: compressed
+#   load_paths:
+#     - _sass
 
 kramdown:
   math_engine: mathjax 
