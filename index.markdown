@@ -16,7 +16,9 @@ SHUI is short for **Simulator of catchment Hydrology and nUtrients Interactions*
     alt="图示" 
     style="display: block; margin: 0 auto; width: 70%;">
 
+<div style="text-align: center">
 Fig. Terminal window of model execution of SHUI
+</div>
 
 The features of this model version include: 
 1. Parallel computation for both the land surface grid and river network through OpenMP, with spatial discretization parallelization for the land surface grid and spatiotemporal coupling hierarchical parallelization for the river network, significantly improving computational efficiency on multi-core systems; 
