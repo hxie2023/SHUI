@@ -27,6 +27,11 @@ Figure 1 The command-line interface showing the model being executed.
 Figure 2 The command-line interface showing the model being executed.
 </div>
 
+<video controls style="max-width: 100%; height: auto;">
+  <source src="/assets/videos/模型终端运行界面录屏.mp4" type="video/mp4">
+  您的浏览器不支持视频播放。请 <a href="/assets/videos/模型终端运行界面录屏.mp4">下载视频</a>。
+</video>
+
 The features of this model version include: 
 1. Parallel computation for both the land surface grid and river network through OpenMP, with spatial discretization parallelization for the land surface grid and spatiotemporal coupling hierarchical parallelization for the river network, significantly improving computational efficiency on multi-core systems; 
 2. Deep integration with NetCDF file operation capabilities, providing flexible model driving methods (by gauge or grid data, in cold or warm start modes) and efficient multi-variable, multi-dimensional data read/write management functions; 
