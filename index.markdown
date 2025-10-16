@@ -13,11 +13,11 @@ SHUI is short for **Simulator of catchment Hydrology and nUtrients Interactions*
 
 
 <img src="{{ '/assets/images/SHUI.png' | relative_url }}" 
-    alt="图示" 
+    alt="Figure 1" 
     style="display: block; margin: 0 auto; width: 70%;">
 
 <div style="text-align: center">
-Fig. Terminal window of model execution of SHUI
+Figure 1 Terminal window of model execution of SHUI
 </div>
 
 The features of this model version include: 
