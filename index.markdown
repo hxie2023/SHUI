@@ -27,20 +27,13 @@ Figure 1 The command-line interface showing the model being executed.
 Figure 2 The command-line interface showing the model being executed.
 </div>
 
-<video controls style="max-width: 100%; height: auto;">
-  <source src="/assets/videos/模型终端运行界面录屏.mp4" type="video/mp4">
-  您的浏览器不支持视频播放。请 <a href="/assets/videos/模型终端运行界面录屏.mp4">下载视频</a>。
-</video>
-
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 10px; margin: 20px 0;">
-  <video controls style="max-width: 100%; height: auto; border-radius: 4px;">
-    <source src="/assets/videos/模型终端运行界面录屏.mp4" type="video/mp4">
-    您的浏览器不支持视频播放。请 <a href="/assets/videos/demo.mp4">下载MP4视频</a>。
-  </video>
-  <p style="text-align: center; color: #666; font-size: 0.9em; margin: 5px 0 0 0;">
-    演示视频 - 建议全屏观看
-  </p>
+<img src="{{ '/assets/images/Terminal window.gif' | relative_url }}" 
+    alt="Figure 1" 
+    style="display: block; margin: 0 auto; width: 90%;">
+<div style="text-align: center">
+Figure 2 Terminal window.
 </div>
+
 
 The features of this model version include: 
 1. Parallel computation for both the land surface grid and river network through OpenMP, with spatial discretization parallelization for the land surface grid and spatiotemporal coupling hierarchical parallelization for the river network, significantly improving computational efficiency on multi-core systems; 
